@@ -1,0 +1,64 @@
+[
+  {
+    "kind": "header",
+    "title": "Marfa Road Trip: Thelma and Louise, With a Happier Ending",
+    "date": "22.01.2018",
+    "authors": [
+      "Hayley Krischer"
+    ]
+  },
+  {
+    "kind": "image",
+    "src": "https://static01.nyt.com/images/2018/01/28/travel/28marfa8/merlin_132361262_66dd8cee-6606-48cb-83c4-a759b0fa87de-superJumbo.jpg",
+    "credit": "Stacy Sodolak"
+  },
+  {
+    "kind": "content",
+    "text": "When you escape your life at 45, as in a Thelma and Louise-level escape, you go to the desert. My best friends of 25 years joined me. We were all leaving behind something. Beth and Miriam were leaving their young children behind. Sara had just recovered from breast cancer; her mastectomy was fresh, just under a year. I was taking a break from kids, my husband and my 80-pound incessantly barking dog. We picked Marfa, the artist hub in the middle of the West Texas desert as the destination of our road trip last winter. We had been traveling together for 15 years. The quirky art community was part of the reason we landed on Marfa. We wanted to fade into the weirdness of the town, with our identities washing away into the artist Donald Judd’s concrete blocks, the dry landscape and the big sky. We knew it would be the kind of place you might forget to call your family. (Indeed, it was.)"
+  },
+  {
+    "kind": "image",
+    "src": "https://static01.nyt.com/images/2018/01/28/travel/28marfa11/merlin_132361997_abe00307-faf3-48bf-b629-25e8c1f5fa1d-superJumbo.jpg",
+    "credit": "Stacy Sodolak"
+  },
+  {
+    "kind": "content",
+    "text": "If we were lucky, we’d get some much needed refueling, maybe a chance to scream in the middle of the road, or, like Thelma and Louise, innocently flirt with a Brad Pitt type of cowboy. And even though GPS would never allow any of us to get lost, we longed for that feeling of disappearing. Just temporarily. Beth and Miriam drove from Austin. I flew from New Jersey into El Paso to meet Sara, who came in from Los Angeles. "
+  },
+  {
+    "kind": [ "teaser", "small" ],
+    "title": "Celebrating the Creativity of Cities",
+    "image": {
+      "src": "https://static01.nyt.com/images/2018/02/04/travel/04Getaway-Unesco1/04Getaway-Unesco1-superJumbo.jpg",
+      "credit": "Lané Pittard"
+    }
+  },
+  {
+    "kind": [ "teaser", "small" ],
+    "title": "A Minneapolis Hotel With Northwoods Style (and Flavor)",
+    "image": {
+      "src": "https://static01.nyt.com/images/2018/01/28/travel/28checkin-minneapolis-1/28checkin-minneapolis-1-superJumbo.jpg",
+      "credit": "Hewing Hotel"
+    }
+  },
+  {
+    "kind": [ "teaser", "small" ],
+    "title": "36 Hours in Calgary, Alberta",
+    "image": {
+      "src": "https://static01.nyt.com/images/2018/02/04/travel/04HOURS-CALGARY1/04HOURS-CALGARY1-largeHorizontalJumbo.jpg",
+      "credit": "Colin Way"
+    }
+  },
+  {
+    "kind": [ "teaser", "small" ],
+    "title": "Where to Get Healthier in 2018",
+    "image": {
+      "src": "https://static01.nyt.com/images/2018/01/14/travel/14wellness-ptg-1/14wellness-ptg-1-videoLarge.jpg"
+    }
+  },
+  {
+    "kind": "button",
+    "text": "Go to next page ->",
+    "content": "content-for-2nd-page.json"
+  }
+]

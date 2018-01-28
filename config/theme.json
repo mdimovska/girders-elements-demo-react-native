@@ -1,0 +1,43 @@
+{
+  "color": {
+    "primary": "#6653ff",
+    "secondary": "#8280ff",
+    "text": {
+      "primary": "#000",
+      "inverted": "#fff"
+    },
+    "background": {
+      "primary": "#fff",
+      "inverted": "#000"
+    },
+    "shades": {
+      "extraLight": "#eee",
+      "light": "#aaa",
+      "medium": "#777",
+      "dark": "#444",
+      "extraDark": "#111"
+    }
+  },
+  "font": {
+    "family": {
+      "primary": "Helvetica",
+      "secondary": "Courier"
+    }
+  },
+  "profiles": {
+    "android": {
+      "font": {
+        "family": {
+          "primary": "sans-serif",
+          "secondary": "monospace"
+        }
+      }
+    },
+    "ios": {
+      "color": {
+        "primary": "#004466",
+        "secondary": "#0099cc"
+      }
+    }
+  }
+}

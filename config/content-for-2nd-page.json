@@ -1,0 +1,67 @@
+[
+  {
+    "kind": [ "teaser", "large" ],
+    "title": "A Minneapolis Hotel With Northwoods Style (and Flavor)",
+    "description": "The Hewing Hotel has the spirit of the state, from the loons in the wallpaper to the cedar sauna on the roof.",
+    "authors": [
+      "Elaine Glusac"
+    ],
+    "image": {
+      "src": "https://static01.nyt.com/images/2018/01/28/travel/28checkin-minneapolis-1/28checkin-minneapolis-1-superJumbo.jpg",
+      "credit": "Hewing Hotel"
+    }
+  },
+  {
+    "kind": [ "teaser", "medium" ],
+    "title": "A Boutique Hotel in New Orleans’s Garden District",
+    "description": "The Henry Howard Hotel is inspired by the past of both the building and the city.",
+    "authors": [
+      "Lindsey Tramuta"
+    ],
+    "image": {
+      "src": "https://static01.nyt.com/images/2018/01/07/travel/21checkin-neworleans-1/21checkin-neworleans-1-largeHorizontalJumbo.jpg",
+      "credit": "Kathleen Fitzgerald"
+    }
+  },
+  {
+    "kind": [ "teaser", "small" ],
+    "title": "A Catskills Inn Gets a Modern Makeover",
+    "description": "Scribner’s Catskill Lodge has a contemporary look (and cuisine) and an ideal location for Hunter Mountain skiing.",
+    "authors": [
+      "Amy Thomas"
+    ],
+    "image": {
+      "src": "https://static01.nyt.com/images/2017/12/31/travel/31checkin-catskills-2/07checkin-catskills-2-largeHorizontalJumbo.jpg",
+      "credit": "Nico Schinco"
+    }
+  },
+  {
+    "kind": [ "teaser" ],
+    "title": "Celebrating the Creativity of Cities",
+    "description": "Unesco’s Creative Cities Network initiative is going strong, despite U.S. plans to pull out of the organization.",
+    "authors": [
+      "Elaine Glusac"
+    ],
+    "image": {
+      "src": "https://static01.nyt.com/images/2018/02/04/travel/04Getaway-Unesco1/04Getaway-Unesco1-largeHorizontalJumbo.jpg",
+      "credit": "Lané Pittard"
+    }
+  },
+  {
+    "kind": [ "teaser", "specialized-teaser-that-does-not-exist" ],
+    "title": "Marfa Road Trip: Thelma and Louise, With a Happier Ending",
+    "description": "Marfa Road Trip: Thelma and Louise, With a Happier Ending",
+    "authors": [
+      "Hayley Krischer"
+    ],
+    "image": {
+      "src": "https://static01.nyt.com/images/2018/01/28/travel/28marfa8/merlin_132361262_66dd8cee-6606-48cb-83c4-a759b0fa87de-superJumbo.jpg",
+      "credit": "Stacy Sodolak"
+    }
+  },
+  {
+    "kind": "button",
+    "text": "<- Go back",
+    "content": "init.json"
+  }
+]
