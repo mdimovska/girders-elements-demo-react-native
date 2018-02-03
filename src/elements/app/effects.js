@@ -9,7 +9,8 @@ const actionTypes = {
 }
 
 // global effect - action can be dispatched from the app element or any of its children
-effect.register([ 'app' ], actionTypes.LOAD_NEW_CONTENT, (context, action) => {
+// FIXME: remove async when sync effects are fixed https://github.com/netceteragroup/girders-elements/pull/95
+effect.register([ 'app' ], actionTypes.LOAD_NEW_CONTENT, async (context, action) => {
   const newContent = (action.content === 'content-for-2nd-page.json') ? contentFor2ndPage : initialContent
   return (el) => el.set('content', fromJS(newContent))
 })
