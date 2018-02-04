@@ -1,19 +1,8 @@
-import Button from './Button'
-import Image from './Image'
-import MainContainer from './MainContainer'
-import PostContent from './PostContent'
-import PostHeader from './PostHeader'
-import TeaserLarge from './Teaser/Large'
-import TeaserMedium from './Teaser/Medium'
-import TeaserSmall from './Teaser/Small'
-
-export {
-  Button,
-  Image,
-  MainContainer,
-  PostContent,
-  PostHeader,
-  TeaserLarge,
-  TeaserMedium,
-  TeaserSmall
-}
+export { default as Button } from './Button'
+export { default as Image } from './Image'
+export { default as MainContainer } from './MainContainer'
+export { default as PostContent } from './PostContent'
+export { default as PostHeader } from './PostHeader'
+export { default as TeaserLarge } from './Teaser/Large'
+export { default as TeaserMedium } from './Teaser/Medium'
+export { default as TeaserSmall } from './Teaser/Small'
