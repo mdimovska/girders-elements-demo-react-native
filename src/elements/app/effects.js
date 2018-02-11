@@ -1,5 +1,5 @@
 import { effect } from '@girders-elements/core'
-import { fromJS, List } from 'immutable'
+import { fromJS } from 'immutable'
 
 import contentFor2ndPage from '../../../config/content-for-2nd-page'
 import initialContent from '../../../config/content'
