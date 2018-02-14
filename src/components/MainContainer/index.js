@@ -1,11 +1,12 @@
 import React from 'react'
-import { VirtualizedList } from 'react-native'
+import { StyleSheet, VirtualizedList } from 'react-native'
+import memoize from 'lodash.memoize'
 
 import config from '../../../config'
 
 const MainContainer = ({ data, renderItem }) =>  (
   <VirtualizedList
-    style={dynamicStyles().container}
+    style={createStyles(config).container}
     data={data}
     renderItem={renderItem}
     getItem={(items, index) => items.get(index)}
@@ -20,13 +21,10 @@ const keyExtractor = (item, index) => {
   return `key-${index}-${kindString}`
 }
 
-const dynamicStyles = () => {
-  const { color } = config.theme
-  return {
-    container: {
-      backgroundColor: color.background.primary
-    }
+const createStyles = memoize(({ theme: { color } }) => StyleSheet.create({
+  container: {
+    backgroundColor: color.background.primary
   }
-}
+}))
 
 export default MainContainer

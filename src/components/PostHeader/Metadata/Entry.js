@@ -1,30 +1,26 @@
 import React from 'react'
 import { StyleSheet, Text } from 'react-native'
+import memoize from 'lodash.memoize'
 
 import config from '../../../../config'
 
-const Entry = ({ text, highlight, style }) => (
-  <Text style={[ styles.text, dynamicStyles().text, highlight && dynamicStyles().highlight, style ]}>{text}</Text>
-)
+const Entry = ({ text, highlight, style }) => {
+  const styles = createStyles(config)
+  return (
+    <Text style={[ styles.text, highlight && styles.highlightedText, style ]}>{text}</Text>
+  )
+}
 
-const styles =  StyleSheet.create({
+const createStyles = memoize(({ theme: { color, font } }) => StyleSheet.create({
   text: {
     fontSize: 14,
-    marginTop: 10
+    marginTop: 10,
+    color: color.shades.light,
+    fontFamily: font.family.secondary,
+  },
+  highlightedText: {
+    color: color.secondary
   }
-})
-
-const dynamicStyles = () => {
-  const { color, font } = config.theme
-  return {
-    text: {
-      color: color.shades.light,
-      fontFamily: font.family.secondary,
-    },
-    highlight: {
-      color: color.secondary
-    }
-  }
-}
+}))
 
 export default Entry

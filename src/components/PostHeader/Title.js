@@ -1,27 +1,20 @@
 import React from 'react'
 import { StyleSheet, Text } from 'react-native'
+import memoize from 'lodash.memoize'
 
 import config from '../../../config'
 
 const PostTitle = ({ title = '' }) => (
-  <Text style={[styles.title, dynamicStyles().title]}>{title.toUpperCase()}</Text>
+  <Text style={createStyles(config).title}>{title.toUpperCase()}</Text>
 )
 
-const styles = StyleSheet.create({
+const createStyles = memoize(({ theme: { color, font } }) => StyleSheet.create({
   title: {
     fontSize: 30,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    color: color.text.inverted,
+    fontFamily: font.family.primary
   }
-})
-
-const dynamicStyles = () => {
-  const { color, font } = config.theme
-  return {
-    title: {
-      color: color.text.inverted,
-      fontFamily: font.family.primary
-    }
-  }
-}
+}))
 
 export default PostTitle
