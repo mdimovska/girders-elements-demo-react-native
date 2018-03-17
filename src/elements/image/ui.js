@@ -1,5 +1,5 @@
 import React from 'react'
-import { ui } from '@girders-elements/core'
+import { ui } from '@skele/classic'
 import { Image } from '../../components'
 
 ui.register([ 'image' ], ({ element }) => (

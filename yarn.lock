@@ -2,20 +2,20 @@
 # yarn lockfile v1
 
 
-"@girders-elements/config@^1.0.0-alpha.26":
-  version "1.0.0-alpha.26"
-  resolved "https://registry.yarnpkg.com/@girders-elements/config/-/config-1.0.0-alpha.26.tgz#e896cae6d4e9bc147d3d26d321695aa88c93f3b2"
-  dependencies:
-    ramda "^0.25.0"
-
-"@girders-elements/core@^1.0.0-alpha.26":
-  version "1.0.0-alpha.26"
-  resolved "https://registry.yarnpkg.com/@girders-elements/core/-/core-1.0.0-alpha.26.tgz#0a772ee8c14d286179413288bc7fd84d3b2a2284"
+"@skele/classic@^1.0.0-alpha.27":
+  version "1.0.0-alpha.27"
+  resolved "https://registry.yarnpkg.com/@skele/classic/-/classic-1.0.0-alpha.27.tgz#28e031540cfd171502baf2514328d03bdccabba1"
   dependencies:
     immutable "^3.8.1"
     invariant "^2.2.2"
     ramda "^0.25.0"
-    uuid "^3.1.0"
+    uuid "^3.2.1"
+
+"@skele/config@^1.0.0-alpha.27":
+  version "1.0.0-alpha.27"
+  resolved "https://registry.yarnpkg.com/@skele/config/-/config-1.0.0-alpha.27.tgz#685f43f34ac2026983ea4149c3dfc13b70a93449"
+  dependencies:
+    ramda "^0.25.0"
 
 abbrev@1:
   version "1.1.1"
@@ -3551,7 +3551,7 @@ uuid@3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.0.1.tgz#6544bba2dfda8c1cf17e629a3a305e2bb1fee6c1"
 
-uuid@^3.0.0, uuid@^3.1.0:
+uuid@^3.0.0, uuid@^3.1.0, uuid@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.2.1.tgz#12c528bb9d58d0b9265d9a2f6f0fe8be17ff1f14"
 

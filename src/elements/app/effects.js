@@ -1,4 +1,4 @@
-import { effect } from '@girders-elements/core'
+import { effect } from '@skele/classic'
 import { fromJS } from 'immutable'
 
 import contentFor2ndPage from '../../../config/content-for-2nd-page'
@@ -9,8 +9,7 @@ const actionTypes = {
 }
 
 // global effect - action can be dispatched from the app element or any of its children
-// FIXME: remove async when sync effects are fixed https://github.com/netceteragroup/girders-elements/pull/95
-effect.register([ 'app' ], actionTypes.LOAD_NEW_CONTENT, async (context, action) => {
+effect.register([ 'app' ], actionTypes.LOAD_NEW_CONTENT, (context, action) => {
   const newContent = (action.content === 'content-for-2nd-page.json') ? contentFor2ndPage : initialContent
   return (el) => el.set('content', fromJS(newContent))
 })

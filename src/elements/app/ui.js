@@ -1,5 +1,5 @@
 import React from 'react'
-import { ui } from '@girders-elements/core'
+import { ui } from '@skele/classic'
 import { MainContainer } from '../../components'
 
 ui.register([ 'app' ], ({ element, uiFor }) => (

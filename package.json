@@ -1,12 +1,12 @@
 {
-	"name": "girders-elements-demo-react-native",
+	"name": "skele-demo-react-native",
 	"version": "0.0.1",
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start"
 	},
 	"dependencies": {
-		"@girders-elements/config": "^1.0.0-alpha.26",
-		"@girders-elements/core": "^1.0.0-alpha.26",
+		"@skele/classic": "^1.0.0-alpha.27",
+		"@skele/config": "^1.0.0-alpha.27",
 		"core-js": "^2.5.3",
 		"immutable": "^3.8.2",
 		"lodash.memoize": "^4.1.2",

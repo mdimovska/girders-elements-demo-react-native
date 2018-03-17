@@ -1,5 +1,5 @@
 import React from 'react'
-import { ui } from '@girders-elements/core'
+import { ui } from '@skele/classic'
 import { Button } from '../../components'
 import { loadNewContent } from '../app/effects'
 
